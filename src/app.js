@@ -3,7 +3,7 @@ const app = new expr();
 const path = require('path');
 const ns = require('number-system');
 const bodyParser = require('body-parser');
-
+const port = process.env.PORT || 3003;
 const stylePath = path.join(__dirname,'../public');
 const imgPath = path.join(__dirname,'../public/images');
 app.use(expr.static(stylePath));
@@ -39,4 +39,4 @@ app.get('/', (req, res)=>{
     res.render('index');
 })
 
-app.listen(3003);
+app.listen(port);
