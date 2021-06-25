@@ -1,4 +1,4 @@
 applications:
-- name: numbersystemconverter123
+- name: numberSystemConverter
   memory: 128M
   buildpack: sdk-for-nodejs
