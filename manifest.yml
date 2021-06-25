@@ -1,4 +1,5 @@
+---
 applications:
-- name: numberSystemConverter
-  memory: 128M
-  buildpack: sdk-for-nodejs
+ - name: numberSystemConverter
+   random-route: true
+   memory: 128M
