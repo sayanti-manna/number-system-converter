@@ -1,5 +1,0 @@
----
-- name: numberSystemConverter
-  memory: 128M
-  buildpack: nodejs_buildpack
-  command: node ./src/app.js
