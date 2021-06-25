@@ -1,5 +1,5 @@
 applications:
-- name: numberconverter12
+- name: numberconverter123
   memory: 128M
   random-route: true
   instances: 1
