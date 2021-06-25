@@ -1,5 +1,4 @@
 applications:
-- name: numberconverter123
+- name: numbersystemconverter123
   memory: 128M
-  random-route: true
-  instances: 1
+  buildpack: sdk-for-nodejs
