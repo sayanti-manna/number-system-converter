@@ -1,6 +1,5 @@
 ---
 - name: numberSystemConverter
   memory: 256M
-  disk_quota: 512M
   buildpack: nodejs_buildpack
   command: node ./src/app.js
