@@ -3,5 +3,4 @@ applications:
  - name: numberSystemConverter
    random-route: true
    memory: 128M
-   buildpack: sdk-for-nodejs
    command: node src/app.js
