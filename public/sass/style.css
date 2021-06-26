@@ -44,7 +44,7 @@ section {
   width: 100%;
 }
 
-section.button {
+.inside_div section.button {
   display: -ms-grid;
   display: grid;
   padding: 1rem 0;
@@ -297,35 +297,98 @@ h2 {
   }
 }
 
-@media screen and (max-width: 688px) {
-  html {
+@media screen and (max-width: 620px) {
+  * {
     font-size: 62.2%;
   }
   #section1 {
     width: 50%;
-  }
-}
-
-@media screen and (max-width: 466px) {
-  * {
-    font-size: 92.2%;
-  }
-  .container {
-    min-width: 40rem;
-  }
-  #section1 {
-    width: 50%;
-    overflow: scroll;
-    min-width: 45rem;
   }
 }
 
 @media screen and (max-width: 596px) {
-  html {
-    font-size: 62.2%;
+  * {
+    font-size: 100%;
   }
   #section1 {
     min-width: 70%;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  #section1 {
+    width: 100%;
+    -ms-grid-columns: minmax(1rem, 1fr);
+        grid-template-columns: minmax(1rem, 1fr);
+  }
+  #section1 .div1 > .label1 {
+    font-size: 100%;
+  }
+  #section1 .div1 > .label2 {
+    font-size: 100%;
+  }
+  #section1 .div2 > select {
+    font-size: 100%;
+  }
+  #section1 .div2 > .label3 {
+    font-size: 100%;
+  }
+  #section2 input[type] {
+    font-size: 100%;
+    width: 85%;
+    margin-left: .1rem;
+  }
+  #btnSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 9%;
+  }
+  #section2 button:nth-child(1) {
+    padding: 1rem 2.5rem;
+    font-size: 100%;
+  }
+  #section2 button:nth-child(2) {
+    padding: 1rem 2.5rem;
+    font-size: 100%;
+  }
+  #section2 button:nth-child(3) {
+    padding: 1rem 2.5rem;
+    font-size: 100%;
+  }
+  #section2 #Numlabel {
+    font-size: 100%;
+  }
+  .outputSection section input[type] {
+    width: 75%;
+    padding: .8rem;
+    margin: .3rem 0;
+    font-size: 100%;
+  }
+  #sec1 {
+    font-size: 100%;
+    margin-left: -65%;
+  }
+  #sec2 {
+    font-size: 100%;
+    margin-left: -64%;
+  }
+  #sec3 {
+    font-size: 100%;
+    margin-left: -65.9%;
+  }
+  #sec4 {
+    font-size: 100%;
+    margin-left: -55%;
+  }
+  section.button a {
+    font-size: 100%;
   }
 }
 /*# sourceMappingURL=style.css.map */
