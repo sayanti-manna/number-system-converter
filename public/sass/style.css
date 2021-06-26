@@ -145,15 +145,25 @@ form #section1, #section2 {
   margin-right: 2rem;
 }
 
-#section1 .div1 .label2, .div2 select {
+#section1 .div1 .label2{
   font-size: 1.2vw;
   color: #fff;
   cursor: pointer;
   padding: .8rem 5rem;
   background-color: rgba(139, 69, 19, 0.8);
+  padding: .85rem 6rem;
+  border-radius: .3rem;
+  border: 0.1rem ridge rgba(0, 0, 0, 0.4);
 }
-
-#section1 .div1 .label2 {
+#section1 .div2{
+  margin-top: 18px;
+}
+#section1 .div2 .label4 {
+  font-size: 1.2vw;
+  color: #fff;
+  cursor: pointer;
+  padding: .8rem 5rem;
+  background-color: rgba(139, 69, 19, 0.8);
   padding: .85rem 6rem;
   border-radius: .3rem;
   border: 0.1rem ridge rgba(0, 0, 0, 0.4);
